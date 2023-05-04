@@ -1,5 +1,7 @@
 # OlympusDAO Treasury Subgraph
 
+***Note: This repo is archived and has been moved to https://github.com/OlympusDAO/treasury-subgraph/***
+
 ## Purpose
 
 It proved to be enormously difficult to aggregate GraphQL results across multiple endpoints and date ranges (due to limitations with Graph Protocol pagination). The code in this monorepo seeks to address that.

@@ -14,14 +14,19 @@
       ]
     },
     "lint": {},
-    "deploy": {
+    "test": {
       "dependsOn": [
-        "build"
+        "^test"
+      ]
+    },
+    "build:release": {
+      "dependsOn": [
+        "^build:release"
       ]
     },
     "publish-package": {
       "dependsOn": [
-        "build"
+        "build:release"
       ]
     }
   }
